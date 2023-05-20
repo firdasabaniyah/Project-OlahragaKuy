@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 15px;
+    width: 1500px;
+    height: 80px;
+    background-color: #FFB9B9;
+    font-weight: 800;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.Logo a {
+    display: flex;
+    color: white;
+    padding: 15px;
+    font-family: Courier;
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+}
+
+.menu li a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+.active:hover {
+    color: white !important;
+}
+
+ body {
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #FFB9B9;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#About img {
+    width: 200px;
+}
+
+#About header {
+    text-align: center;
+}
+
+.Profile img{
+    width: 200px;   
+}
+
+.Profile header {
+    text-align: center;
+}
+
+aside { 
+    width: 30%;
+    padding-left: 20px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    padding: 0;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+ 
+
+
+
+
+
+
+
